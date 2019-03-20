@@ -1,12 +1,12 @@
 import React from 'react';
-import IGLogo from '../../assets/ig_search_bar.png';
+import IGSearchBar from '../../assets/ig_search_bar.png';
 import './SearchBar.css';
 
 const SearchBar = () => {
   return (
     <div className="search-bar-container">
         <div className="image-container">
-          <img alt="instagram logo" src={IGLogo} className="logo-image" />
+          <img alt="instagram logo" src={IGSearchBar} className="logo-image" />
         </div>
         <div>
           <input type="text" placeholder="Search" />
